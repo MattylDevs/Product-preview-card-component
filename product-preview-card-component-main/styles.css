@@ -9,21 +9,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   min-height: 100vh;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
-  height: 550px;
-  width: 740px;
+  /*flex-direction: row;*/
+  height: auto;
+  width: auto;
 }
 
-img {
+.left {
   width: 370px;
   height: 550px;
   border-radius: 7px 0 0 7px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
 
 .right {
@@ -35,11 +40,12 @@ img {
   width: 370px;
   height: 550px;
   border-radius: 0 7px 7px 0;
+  padding: 30px;
 }
 
 .perfume {
-  margin-top: 30px;
-  margin-left: 40px;
+  /* margin-top: 30px;
+  margin-left: 40px;*/
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   color: hsl(228, 12%, 48%);
@@ -49,7 +55,7 @@ img {
 
 .essence {
   margin-top: 20px;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   font-family: Fraunces, sans-serif;
   text-align: left;
   width: 200px;
@@ -58,7 +64,7 @@ img {
 
 .description {
   width: 270px;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   font-family: Montserrat, sans-serif;
   color: hsl(228, 12%, 48%);
   text-align: left;
@@ -67,7 +73,7 @@ img {
 }
 
 .price {
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   display: flex;
   flex-direction: row;
 }
@@ -82,7 +88,7 @@ img {
 
 .cross {
   color: hsl(228, 12%, 48%);
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   margin-top: 25px;
   text-decoration: line-through;
 }
@@ -94,7 +100,7 @@ img {
 }
 
 .btn {
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   margin-bottom: 50px;
   width: 250px;
   height: 50px;
@@ -104,21 +110,22 @@ img {
   font-family: Montserrat, sans-serif;
   text-align: center;
   border-radius: 10px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
-  body {
+  /* body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0 auto;
-  }
+  }*/
 
   .container {
-    display: flex;
+    /* display: flex;*/
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
   }
 }
